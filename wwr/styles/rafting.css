@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+:root {
+  --primary-color: #d4bd18;
+  --secondary-color: #6e4f48;
+  --accent1-color: #956a37;
+  --accent2-color: #c8a11f;
+  --heading-font: 'Lato', serif;
+  --paragraph-font: 'Open Sans', serif;
+  --nav-bg-color: #ad7a46;
+  --nav-link-color: white;
+  --nav-hover-link-color: #7be694;
+  --nav-hover-bg-color: #b88553f1;
+  --font-color: #000;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 1000px;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #c8a11f;
+  font-family: var(--heading-font);
+}
+p {
+  color: var(--font-color);
+}
+nav a {
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  color: var(--nav-bg-color);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  height: auto;
+  width: 100%;
+}
+.hero h1 {
+  color: var(--nav-link-color);
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+
+.hero article img {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  width: 20%;
+}
+header img {
+  width: 3rem;
+  height: auto;
+}
+header nav {
+  float: right;
+}
+article p {
+  position: absolute;
+  color: var(--nav-link-color);
+  width: 72%;
+  top: 3rem;
+  left: 2rem;
+  background-color: rgba(101, 101, 225, 0.4);
+}
+footer nav a img {
+  width: 2rem;
+  height: auto;
+  
+}
+footer p {
+  color: var(--accent1-color);
+}
