@@ -73,7 +73,7 @@ article p {
 footer nav a img {
   width: 2rem;
   height: auto;
-  
+  /* float: right; */
 }
 footer p {
   color: var(--accent1-color);
