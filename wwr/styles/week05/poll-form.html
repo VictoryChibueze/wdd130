@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 130 | HTML Form -User Poll</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Victory chibueze" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WDD 130 | Your Name | HTML Form - User Poll</h1>
+    </header>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item column2">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="name" /><br />
+          </div>
+          <div class="form-item column2">
+            <label for="usermail">Email</label>
+            <input type="email" name="usermail" id="usermail" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Question</legend>
+          <div class="form-item column1">
+            <label for="browser">What is your favorite internet browser?</label>
+            <select name="browsername" id="browser">
+              <option value="chrome">Chrome</option>
+              <option value="safari">Safari</option>
+              <option value="opera">Opera</option>
+              <option value="edge">Edge</option>
+              <option value="firefox">Firefox</option>
+              <option value="netscape">Netscape</option>
+              <option value="icab">iCab</option>
+              <option value="brave">Brave</option>
+              <option value="netfront">Netfront</option>
+              <option value="surf">Surf</option></select
+            ><br />
+          </div>
+          <div class="form-item column1">
+            <label for="pet">Do you have a household pet</label>
+            <input type="checkbox" id="pet" name="householdpet" /><br />
+          </div>
+
+          <label class="feedback" for="feedback"
+            >List the places you have lived:</label
+          >
+          <textarea
+            name="feedback"
+            id="feedback"
+            rows="4"
+            placeholder="Stillwater Florida,amsterdam Neitherlands,Tibuktu Mail"
+          ></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy;2023 | HTML Form - User Poll Activity | Victory Chibueze</p>
+    </footer>
+  </body>
+</html>
