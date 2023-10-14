@@ -62,6 +62,12 @@ p {
   max-width: 80%;
   margin: 0 2rem;
 }
+footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  margin: 1rem 0;
+  color: rgb(38, 38, 134);
+}
 
 /* Class selector */
 
