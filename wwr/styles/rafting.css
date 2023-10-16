@@ -43,28 +43,6 @@ nav a {
   font-size: 1.2rem;
   padding: 1rem;
 }
-.hero {
-  position: relative;
-  max-width: 100vw;
-}
-.hero img {
-  height: auto;
-  width: 100%;
-  overflow-x: auto;
-}
-.hero h1 {
-  color: var(--nav-link-color);
-  position: absolute;
-  top: 3rem;
-  left: 2rem;
-}
-
-.hero article img {
-  position: absolute;
-  top: 5rem;
-  right: 2rem;
-  width: 20%;
-}
 header img {
   width: 3rem;
   height: auto;
@@ -108,7 +86,114 @@ footer p {
   font-family: var(--paragraph-font);
   font-weight: 700;
 }
+
+button {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: var(--nav-link-color);
+  border: none;
+  background: var(--accent2-color);
+  border-radius: 3px;
+}
+button:hover {
+  background-color: var(--primary-color);
+}
+
+/* Class selector */
+.avatar {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.avatar img {
+  border-radius: 50%;
+  height: auto;
+  width: 9rem;
+}
+.contact-h1 {
+  font-size: 4rem;
+  transform: translateX(50%);
+}
+.form {
+  display: grid;
+  margin: 1.5rem 0;
+  grid-row-gap: 0.1rem;
+  max-width: 30rem;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  padding: 1rem 0 0 0;
+}
+
+.form p {
+  color: #6e4f48;
+}
+label {
+  color: #6e4f48;
+  font-weight: 700;
+}
+.hero {
+  position: relative;
+  max-width: 100vw;
+}
+.hero img {
+  height: auto;
+  width: 100%;
+  overflow-x: auto;
+}
+.hero h1 {
+  color: var(--nav-link-color);
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+
+.hero article img {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  width: 20%;
+}
+
 .grid {
   display: grid;
   justify-content: center;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  margin-bottom: 1rem;
+}
+
+.info h2 {
+  grid-column: 1/3;
+  padding: 1.5rem;
+}
+
+input,
+textarea {
+  padding: 0.9rem 10rem 0.5rem 0.2rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.contact {
+  display: grid;
+  background-color: var(--nav-link-color);
+  align-items: center;
+}
+.contact p {
+  background-color: var(--nav-bg-color);
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--nav-link-color);
+  font-weight: 700;
+}
+.contact p a {
+  color: var(--nav-link-color);
 }
