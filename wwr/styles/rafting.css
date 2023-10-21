@@ -77,6 +77,10 @@ footer nav a img:hover {
   background-color: white;
   border-radius: 50%;
 }
+footer a {
+  color: white;
+}
+
 figcaption {
   color: var(--nav-bg-color);
   font-weight: 700;
