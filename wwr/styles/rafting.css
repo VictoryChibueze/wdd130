@@ -31,9 +31,20 @@ h2 {
 p {
   color: var(--font-color);
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+  max-width: 100%;
+}
 header nav {
-  grid-column: 3/4;
-  justify-self: center;
+  display: flex;
+}
+
+header img {
+  width: 3rem;
+  height: auto;
+  align-self: center;
 }
 nav a {
   text-decoration: none;
@@ -42,17 +53,6 @@ nav a {
   font-weight: 700;
   font-size: 1.2rem;
   padding: 1rem;
-}
-header img {
-  width: 3rem;
-  height: auto;
-}
-header {
-  display: grid;
-  grid-template-columns: auto 1fr 1fr;
-  align-items: center;
-  margin: 7px;
-  max-width: 100%;
 }
 article p {
   position: absolute;
